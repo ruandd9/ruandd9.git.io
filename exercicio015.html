@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #dadada;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: #FFCC00; 
+            padding: 25px;
+            box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.4);
+            margin-bottom: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #333;
+            margin: 0;
+            border-radius: 20px;
+            
+        }
+
+        header table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        
+
+        img{
+            width: 100px;
+            height: auto;
+        }
+
+        h2{
+            margin-top: 60px;
+            text-align: center;
+            font-size: 60px;
+            font-weight: 500;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+
+        .tabela-servicos {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .tabela-servicos thead tr {
+            background-color: #FFCC00;
+            color: #333;
+        }
+        
+        .tabela-servicos th, .tabela-servicos td {
+            padding: 15px;
+            border: 2px solid #333;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        .tabela-servicos tbody tr:nth-child(odd) {
+            background-color: #f4f4f4;
+        }
+        
+        .tabela-servicos tbody tr:nth-child(even) {
+            background-color: #FFCC00;
+            color: #333;
+        }
+        
+
+        main{
+            margin: 50px;
+            margin-top: 8%;
+        }
+
+
+        .clean{
+            background-color: #dddddd;
+            padding: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            margin-bottom: 70px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #333;
+            border-radius: 20px;
+            margin: 50px;
+            margin-top: 5%;
+        }
+
+        .clean h2{
+            color: rgb(0, 0, 0);
+        }
+
+        .servicos-lista {
+            list-style-type: disc; 
+            padding-left: 20px; 
+            font-size: 18px; 
+            color: #333; 
+        }
+        
+        .passos-troca-oleo {
+            list-style-type: decimal; 
+            padding-left: 20px; 
+            font-size: 18px; 
+            color: #333; 
+        }
+        
+        .passos-troca-oleo li {
+            margin-bottom: 10px; 
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            border-top: 5px solid #FFCC00; 
+            box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.3); 
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        .footer-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: center;
+            color: #fff;
+        }
+
+        .footer-table th, .footer-table td {
+            padding: 10px;
+            border: 1px solid #444; 
+        }
+
+        .footer-table th {
+            background-color: #FFCC00;
+            color: #333;
+        }
+
+        .footer-table td {
+            background-color: #444;
+        }
+
+        .footer-table a {
+            color: #FFCC00;
+            text-decoration: none;
+        }
+
+        .footer-table a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!--Cabeçalho feito com tabela-->
+    <header>
+        <table>
+            <tr>
+                <td><img src="QfhrgWROeNQ9AAAAABJRU5ErkJggg-removebg-preview.png" alt=""></td>
+                <td><p>Bem-vindo ao Posto Shell! <br>
+                    Combustível de qualidade e atendimento de excelência para você seguir viagem com segurança. <br>
+                     Abasteça com a confiança que só a Shell oferece.</p></td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <section class="clean">
+            <h2>Nossos Serviços</h2>
+            
+            <table class="tabela-servicos">
+                <thead>
+                    <tr >
+                        <th>Serviço</th>
+                        <th>Descrição
+                            <img src="images__1_-removebg-preview.png" alt="">
+                        </th>
+                        <th>Preços</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td >Abastecimento</td>
+                        <td >Combustível de alta qualidade para todos os tipos de veículos.</td>
+                        <td >R$ 5,49/L</td>
+                    </tr>
+                    <tr>
+                        <td >Troca de Óleo</td>
+                        <td >Serviço rápido e eficiente, com óleos lubrificantes premium.</td>
+                        <td >R$ 79,90</td>
+                    </tr>
+                    <tr>
+                        <td >Calibragem de Pneus</td>
+                        <td >Verificação e ajuste da pressão dos pneus para maior segurança.</td>
+                        <td >Grátis</td>
+                    </tr>
+                    <tr >
+                        <td >Lavagem Completa</td>
+                        <td >Lavagem externa e interna para deixar seu carro como novo.</td>
+                        <td >R$ 49,90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <section class="clean">
+        <h2>Como Realizar a Troca de Óleo</h2>
+        <ol class="passos-troca-oleo">
+            <li>
+                <strong>Identifique o tipo de motor:</strong> 
+                Antes de realizar qualquer passo, identifique o tipo de motor, modelo e marca do carro. Se possível, confira o manual do veículo, pois o mesmo tem as especificações necessárias do óleo mais adequado para o motor.
+            </li>
+            <li>
+                <strong>Escolha o óleo certo:</strong>
+                Cada óleo possui uma quantidade de aditivos específicos para cada motor. Utilizar o produto adequado é de extrema importância. Certifique-se de ter as informações técnicas do motor antes de continuar.
+            </li>
+            <li>
+                <strong>Eleve o veículo:</strong>
+                O carro deve estar elevado e nivelado. Use um macaco e cavaletes para levantar e sustentar o carro, ou posicione a frente em uma rampa, tomando todas as precauções para evitar acidentes.
+            </li>
+            <li>
+                <strong>Realize a substituição:</strong>
+                Localize o reservatório do óleo (cárter) e posicione um recipiente para coletar o óleo usado. Remova a tampa do cárter e deixe o óleo escorrer. Realize a troca com o motor aquecido para facilitar o escoamento do óleo.
+            </li>
+        </ol>
+    </section>
+    
+    <!--footer feito com tabela-->
+    <footer>
+        <p>2024 Meu Website. Todos os direitos reservados.</p>
+        <img src="images__1_-removebg-preview.png" alt="Imagem Complementar do Rodapé">
+        
+        <table class="footer-table">
+            <thead>
+                <tr>
+                    <th>Contato</th>
+                    <th>Redes Sociais</th>
+                    <th>Outros Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="mailto:contato@meuwebsite.com">contato@meuwebsite.com</a></td>
+                    <td><a href="https://www.facebook.com/meuwebsite" target="_blank">Facebook</a></td>
+                    <td><a href="https://www.meuwebsite.com/privacidade" target="_blank">Política de Privacidade</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">+55 61 99999-9999</a></td>
+                    <td><a href="https://www.twitter.com" target="_blank">Twitter</a></td>
+                    <td><a href="https://www.meuwebsite.com/termos" target="_blank">Termos de Serviço</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.meuwebsite.com/contato" target="_blank">Formulário de Contato</a></td>
+                    <td><a href="https://www.instagram.com/meuwebsite" target="_blank">Instagram</a></td>
+                    <td><a href="https://www.meuwebsite.com/sobre" target="_blank">Sobre Nós</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+
+</body>
+</html>
